@@ -1,0 +1,17 @@
+h1{
+    background-color: #ffcc29;
+    /* margin: 100px; */
+    /* margin-top: 200px; */
+    /* margin: 200px 100px; */
+    margin: 100px 200px 300px 400px;
+}
+
+p{
+    background-color: #F58634;
+    /* padding:100px; */
+    /* padding-top: 200px; */
+    /* padding: 200px 100px; */
+    padding: 100px 200px 300px 400px;
+    
+
+}
