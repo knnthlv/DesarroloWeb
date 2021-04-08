@@ -1,9 +1,11 @@
 h1{
     background-color: salmon;
-    display: inline-block;
+    /* Si tengo etiquetas de bloque y las queremos hacer de línea lo hacemos así */
+    display: inline-block; 
 }
 
 a{
     background-color: salmon;
+    /* Si queremos hacer una etiqueta de línea como etiqueta de bloque */
     display: block;
 }

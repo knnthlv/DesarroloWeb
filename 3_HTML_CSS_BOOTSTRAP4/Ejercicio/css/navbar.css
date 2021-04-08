@@ -1,0 +1,48 @@
+.nav-enlace{
+    background-color: salmon;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background-color:blueviolet;
+}
+
+nav{
+    background-color: purple;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-boton{
+    background-color: salmon;
+    color: white;
+    padding: 10px 0;
+    border: 2px solid white;
+    display: none;
+    
+}
+
+@media (max-width: 600px){
+    nav {
+        background-color: black;
+        flex-direction: column;
+    }
+
+    .nav-enlace{
+        margin: 10px 0;
+    }
+
+    .nav-boton{
+        display: inline-block;
+    }
+
+    .desaparece {
+        display: none;
+    }
+}
+    
+
